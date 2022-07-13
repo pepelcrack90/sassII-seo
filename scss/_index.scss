@@ -1,0 +1,33 @@
+/*index*/
+
+.main {
+    img {
+        width: 100%;
+        @include margen(0, 5%, 5%, 0);
+    }
+    .texto {
+        font-size: 1.25em;
+        @include margen(0, 1.25em, 1.25em, 0);
+    }
+    h3 {
+        @extend .texto;
+        color: map-get($map: $colores, $key: 'black');
+    }
+    a {
+        padding: .625em .125em;
+        color: map-get($map: $colores, $key: 'black');
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border: .2em solid map-get($map: $colores, $key: 'black');
+        ;
+    }
+    a:hover {
+        background-color: map-get($map: $colores, $key: 'grey');
+    }
+}
+
+.scale:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}

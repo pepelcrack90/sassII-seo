@@ -1,0 +1,28 @@
+/*diseños*/
+
+.main__diseños {
+    img {
+        @include tamaño(26.5625em, 34.375em);
+    }
+    h2 {
+        font-size: 2.5em;
+        @include margen(1em, 0, 0, 1em);
+        color: map-get($map: $colores, $key: 'black');
+    }
+    a {
+        padding: .625em .225em;
+        @include margen(2em, 0, 0, 2em);
+        color: map-get($map: $colores, $key: 'black');
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border: .2em solid map-get($map: $colores, $key: 'black');
+    }
+    a:hover {
+        background-color: map-get($map: $colores, $key: 'grey');
+    }
+    p {
+        font-size: 1.7em;
+        @include margen(1em, 1.25em, 1.25em, 1em);
+    }
+}

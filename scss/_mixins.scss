@@ -1,0 +1,11 @@
+@mixin margen($left, $top, $bottom, $right) {
+    margin-left: $left;
+    margin-top: $top;
+    margin-bottom: $bottom;
+    margin-right: $right;
+}
+
+@mixin tamaño($widht, $height) {
+    width: $widht;
+    height: $height;
+}

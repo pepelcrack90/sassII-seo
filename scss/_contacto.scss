@@ -1,0 +1,13 @@
+/*contacto*/
+
+.main__titulos {
+    margin: 5%;
+    li a {
+        font-size: 1.5625em;
+        color: map-get($map: $colores, $key: 'black');
+    }
+}
+
+.margen {
+    margin-top: 3%;
+}

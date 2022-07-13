@@ -1,0 +1,31 @@
+/*nosotros*/
+
+.listas li {
+    font-size: 1.875em;
+    @include margen(30%, 10%, 0, 0);
+}
+
+.titulo {
+    @include margen(10%, 15%, 0, 0);
+}
+
+.titulos {
+    @include margen(0, 6%, 3%, 0);
+}
+
+.lugar {
+    @include margen(60%, 0, 0, 0);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-90 {
+    @extend .w-100;
+    height: 90%;
+}
+
+.margin {
+    @include margen(10%, 0, 0, 0);
+}
